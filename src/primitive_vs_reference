@@ -1,0 +1,16 @@
+원시타입은 값자체를 변수 안에 저장한다.
+참조타입은 객체가 들어있을 집주소를 통해 객체를 참조한다
+
+원시타입변수의 초기화
+int age = 10;
+ ->age에 10이 저장됨
+Calculator A = new Calculator();
+ -> A에 객체가 들어있는 참고주소가 저장됨
+참조변수인 A를 초기화할때는 new라는 약어를 사용함
+참조변수에서 아직 가리키는 대상이 없거나 미정이면=>null 이라는 키워드를 넣어준다
+null= 값이 존재하지 않는다
+
+예외]] String name = "sung yoon";
+      String name new String("sung yoon");
+      String은 참조타입이지만 new를 사용하지 안하도 되는 유일한타입
+      =>문자열을 다루기때문일까?
